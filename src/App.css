@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+:root {
+    --tx-color: rgb(75, 75, 75);
+    --my-orange: #ff9900;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*! NAVBAR */
+
+.Navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+}
+
+.RightContainerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.NavLogo {
+    height: 100px;
+    width: 100px;
+    margin-top: -25px;
+    margin-left: -30px;
+}
+
+.NavTitle {
+    font-size: 60px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: var(--tx-color);
+}
+
+.NavItems {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 27px;
+}
+
+.NavItem {
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    margin-right: 50px;
+    padding: 5px 0px 5px 0px;
+    background-color: var(--my-orange);
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    color: #ffffff
+}
+
+.NavItem:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

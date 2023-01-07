@@ -1,0 +1,7 @@
+Wat komt op de website?
+
+1. Contactgegevens + formulier
+2. Info over het bedrijf
+3. Foto's
+4. Waarom sectie
+5. Gepaste navbar en footer
